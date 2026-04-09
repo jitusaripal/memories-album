@@ -1,0 +1,1883 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>beste Freundin fürs Leben.</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  
+  <audio id="bgMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+  
+
+  <div id="introOverlay" class="intro-overlay">
+    <div class="intro-center">
+      <div class="intro-kicker">Geigerle Times</div>
+      <h1 class="intro-title">beste Freundin fürs Leben.</h1>
+      <p class="intro-subtitle">Tussi ja rahe ho? Tussi na jao. And even if you go, don't forget your bestie!</p>
+      <button class="intro-button" id="enterExperienceBtn">Open Life's Moments</button>
+    </div>
+  </div>
+
+  <header class="hero" style="background-image: url('full/img_001.jpg');">
+    <div class="hero-paper"></div>
+    <div class="hero-shade"></div>
+
+    <div class="floating-cards">
+      
+      <div class="floating-card fc1" onclick="openLightboxByName('img_002.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="thumbnails/thumb_002.jpg"
+          data-full="full/img_002.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+          onerror="useFullImage(this)"
+        >
+      </div>
+      
+      <div class="floating-card fc2" onclick="openLightboxByName('img_003.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="thumbnails/thumb_003.jpg"
+          data-full="full/img_003.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+          onerror="useFullImage(this)"
+        >
+      </div>
+      
+      <div class="floating-card fc3" onclick="openLightboxByName('img_004.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="thumbnails/thumb_004.jpg"
+          data-full="full/img_004.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+          onerror="useFullImage(this)"
+        >
+      </div>
+      
+      <div class="floating-card fc4" onclick="openLightboxByName('img_005.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="thumbnails/thumb_005.jpg"
+          data-full="full/img_005.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+          onerror="useFullImage(this)"
+        >
+      </div>
+      
+    </div>
+
+    <div class="top-controls">
+      
+      <button id="musicToggle" class="paper-btn">♫ Music</button>
+      
+      <button class="paper-btn" onclick="document.getElementById('start').scrollIntoView({behavior:'smooth'})">Open Story</button>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-kicker">Scrapbook Album</div>
+      <h1>beste Freundin fürs Leben.</h1>
+      <p>Tussi ja rahe ho? Tussi na jao. And even if you go, don't forget your bestie!</p>
+      <button onclick="document.getElementById('start').scrollIntoView({behavior:'smooth'})">Begin</button>
+    </div>
+  </header>
+
+  <main id="start">
+    
+    <section class="album-section">
+      <div class="section-head">
+        <div class="section-index">01</div>
+        <div>
+          <h2>Just a small intro</h2>
+          <p>I'm Astha, naam to suna hoga</p>
+        </div>
+      </div>
+
+      <div class="quote-note">“Some moments arrive so quietly we barely notice them, yet they bring people into our lives who change everything for the better”</div>
+
+      
+      <div class="featured scrapbook-frame tilt-a" onclick="openLightboxByName('img_002.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="full/img_002.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+        >
+      </div>
+      
+
+      
+      <div class="spread-two">
+        
+        <div class="spread-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_003.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_003.jpg"
+            data-full="full/img_003.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="spread-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_004.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_004.jpg"
+            data-full="full/img_004.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+
+      
+      <div class="film-strip">
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_005.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_005.jpg"
+            data-full="full/img_005.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_006.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_006.jpg"
+            data-full="full/img_006.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_007.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_007.jpg"
+            data-full="full/img_007.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_008.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_008.jpg"
+            data-full="full/img_008.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_009.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_009.jpg"
+            data-full="full/img_009.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_010.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_010.jpg"
+            data-full="full/img_010.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_011.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_011.jpg"
+            data-full="full/img_011.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_012.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_012.jpg"
+            data-full="full/img_012.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_013.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_013.jpg"
+            data-full="full/img_013.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_014.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_014.jpg"
+            data-full="full/img_014.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_015.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_015.jpg"
+            data-full="full/img_015.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+    </section>
+    
+    <section class="album-section">
+      <div class="section-head">
+        <div class="section-index">02</div>
+        <div>
+          <h2>Yaadein mithai ke dibbe ki tarah hoti hain... ek baar khula toh sirf ek tukda nahi kha paoge</h2>
+          <p>A photograph is a way of holding onto the warmth, the loud conversations, and the exact way a room lights up when we are all together</p>
+        </div>
+      </div>
+
+      <div class="quote-note">“Time and distance might be shifting the map, but within these frames, our shared smiles and the joy you brought to all of us are kept forever.”</div>
+
+      
+      <div class="featured scrapbook-frame tilt-a" onclick="openLightboxByName('img_016.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="full/img_016.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+        >
+      </div>
+      
+
+      
+      <div class="spread-two">
+        
+        <div class="spread-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_017.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_017.jpg"
+            data-full="full/img_017.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="spread-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_018.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_018.jpg"
+            data-full="full/img_018.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+
+      
+      <div class="film-strip">
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_019.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_019.jpg"
+            data-full="full/img_019.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_020.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_020.jpg"
+            data-full="full/img_020.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_021.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_021.jpg"
+            data-full="full/img_021.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_022.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_022.jpg"
+            data-full="full/img_022.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_023.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_023.jpg"
+            data-full="full/img_023.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_024.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_024.jpg"
+            data-full="full/img_024.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_025.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_025.jpg"
+            data-full="full/img_025.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_026.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_026.jpg"
+            data-full="full/img_026.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_027.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_027.jpg"
+            data-full="full/img_027.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_028.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_028.jpg"
+            data-full="full/img_028.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_029.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_029.jpg"
+            data-full="full/img_029.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+    </section>
+    
+    <section class="album-section">
+      <div class="section-head">
+        <div class="section-index">03</div>
+        <div>
+          <h2>Babumoshai, zindagi badi honi chahiye, lambi nahi!</h2>
+          <p>Looking back, the best adventures were never the ones we carefully planned</p>
+        </div>
+      </div>
+
+      <div class="quote-note">“It was mostly just us hanging out, talking absolute nonsense, and somehow turning totally ordinary days into laughing memories. Yeh saare pal hamesha yaad aayenge.”</div>
+
+      
+      <div class="featured scrapbook-frame tilt-a" onclick="openLightboxByName('img_030.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="full/img_030.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+        >
+      </div>
+      
+
+      
+      <div class="spread-two">
+        
+        <div class="spread-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_031.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_031.jpg"
+            data-full="full/img_031.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="spread-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_032.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_032.jpg"
+            data-full="full/img_032.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+
+      
+      <div class="film-strip">
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_033.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_033.jpg"
+            data-full="full/img_033.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_034.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_034.jpg"
+            data-full="full/img_034.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_035.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_035.jpg"
+            data-full="full/img_035.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_036.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_036.jpg"
+            data-full="full/img_036.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_037.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_037.jpg"
+            data-full="full/img_037.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_038.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_038.jpg"
+            data-full="full/img_038.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_039.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_039.jpg"
+            data-full="full/img_039.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_040.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_040.jpg"
+            data-full="full/img_040.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_041.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_041.jpg"
+            data-full="full/img_041.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_042.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_042.jpg"
+            data-full="full/img_042.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_043.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_043.jpg"
+            data-full="full/img_043.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+    </section>
+    
+    <section class="album-section">
+      <div class="section-head">
+        <div class="section-index">04</div>
+        <div>
+          <h2>Dosti ka ek usool hai madam, no sorry, no thank you.</h2>
+          <p>laughter, motion, and life</p>
+        </div>
+      </div>
+
+      <div class="quote-note">“Loud arguments, zero formalities, and your laugh making everything better. We thought we were just chilling, but we were actually living some of our best days.”</div>
+
+      
+      <div class="featured scrapbook-frame tilt-a" onclick="openLightboxByName('img_044.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="full/img_044.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+        >
+      </div>
+      
+
+      
+      <div class="spread-two">
+        
+        <div class="spread-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_045.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_045.jpg"
+            data-full="full/img_045.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="spread-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_046.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_046.jpg"
+            data-full="full/img_046.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+
+      
+      <div class="film-strip">
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_047.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_047.jpg"
+            data-full="full/img_047.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_048.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_048.jpg"
+            data-full="full/img_048.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_049.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_049.jpg"
+            data-full="full/img_049.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_050.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_050.jpg"
+            data-full="full/img_050.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_051.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_051.jpg"
+            data-full="full/img_051.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_052.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_052.jpg"
+            data-full="full/img_052.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_053.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_053.jpg"
+            data-full="full/img_053.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_054.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_054.jpg"
+            data-full="full/img_054.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_055.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_055.jpg"
+            data-full="full/img_055.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_056.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_056.jpg"
+            data-full="full/img_056.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_057.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_057.jpg"
+            data-full="full/img_057.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+    </section>
+    
+    <section class="album-section">
+      <div class="section-head">
+        <div class="section-index">05</div>
+        <div>
+          <h2>Ja Simran ja, jee le apni zindagi!</h2>
+          <p>Even as you pack your bags and head toward your next big adventure, the warmth of everything we shared stays right here with us.</p>
+        </div>
+      </div>
+
+      <div class="quote-note">“What remains is a happy, glowing certainty: no matter how many miles separate us now, the beautiful mark you left on all of us will never fade. We are so proud of you, and we will miss you.”</div>
+
+      
+      <div class="featured scrapbook-frame tilt-a" onclick="openLightboxByName('img_058.jpg')">
+        <div class="tape tape-top-left"></div>
+        <div class="tape tape-top-right"></div>
+        <img
+          src="full/img_058.jpg"
+          alt=""
+          loading="eager"
+          decoding="async"
+        >
+      </div>
+      
+
+      
+      <div class="spread-two">
+        
+        <div class="spread-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_059.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_059.jpg"
+            data-full="full/img_059.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="spread-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_060.jpg')">
+          <div class="tape tape-top-left"></div>
+          <div class="tape tape-top-right"></div>
+          <img
+            src="thumbnails/thumb_060.jpg"
+            data-full="full/img_060.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+
+      
+      <div class="film-strip">
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_061.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_061.jpg"
+            data-full="full/img_061.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_062.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_062.jpg"
+            data-full="full/img_062.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_063.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_063.jpg"
+            data-full="full/img_063.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_064.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_064.jpg"
+            data-full="full/img_064.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_065.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_065.jpg"
+            data-full="full/img_065.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_066.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_066.jpg"
+            data-full="full/img_066.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_067.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_067.jpg"
+            data-full="full/img_067.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="film-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_068.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_068.jpg"
+            data-full="full/img_068.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+      
+    </section>
+    
+
+    <section class="all-memories">
+      <div class="section-head">
+        <div class="section-index">∞</div>
+        <div>
+          <h2>All Memories</h2>
+          <p>every page, every fragment</p>
+        </div>
+      </div>
+      <div class="masonry">
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_002.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_002.jpg"
+            data-full="full/img_002.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_003.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_003.jpg"
+            data-full="full/img_003.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_004.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_004.jpg"
+            data-full="full/img_004.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_005.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_005.jpg"
+            data-full="full/img_005.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_006.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_006.jpg"
+            data-full="full/img_006.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_007.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_007.jpg"
+            data-full="full/img_007.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_008.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_008.jpg"
+            data-full="full/img_008.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_009.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_009.jpg"
+            data-full="full/img_009.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_010.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_010.jpg"
+            data-full="full/img_010.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_011.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_011.jpg"
+            data-full="full/img_011.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_012.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_012.jpg"
+            data-full="full/img_012.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_013.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_013.jpg"
+            data-full="full/img_013.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_014.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_014.jpg"
+            data-full="full/img_014.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_015.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_015.jpg"
+            data-full="full/img_015.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_016.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_016.jpg"
+            data-full="full/img_016.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_017.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_017.jpg"
+            data-full="full/img_017.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_018.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_018.jpg"
+            data-full="full/img_018.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_019.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_019.jpg"
+            data-full="full/img_019.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_020.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_020.jpg"
+            data-full="full/img_020.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_021.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_021.jpg"
+            data-full="full/img_021.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_022.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_022.jpg"
+            data-full="full/img_022.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_023.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_023.jpg"
+            data-full="full/img_023.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_024.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_024.jpg"
+            data-full="full/img_024.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_025.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_025.jpg"
+            data-full="full/img_025.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_026.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_026.jpg"
+            data-full="full/img_026.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_027.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_027.jpg"
+            data-full="full/img_027.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_028.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_028.jpg"
+            data-full="full/img_028.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_029.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_029.jpg"
+            data-full="full/img_029.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_030.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_030.jpg"
+            data-full="full/img_030.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_031.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_031.jpg"
+            data-full="full/img_031.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_032.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_032.jpg"
+            data-full="full/img_032.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_033.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_033.jpg"
+            data-full="full/img_033.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_034.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_034.jpg"
+            data-full="full/img_034.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_035.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_035.jpg"
+            data-full="full/img_035.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_036.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_036.jpg"
+            data-full="full/img_036.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_037.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_037.jpg"
+            data-full="full/img_037.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_038.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_038.jpg"
+            data-full="full/img_038.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_039.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_039.jpg"
+            data-full="full/img_039.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_040.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_040.jpg"
+            data-full="full/img_040.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_041.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_041.jpg"
+            data-full="full/img_041.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_042.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_042.jpg"
+            data-full="full/img_042.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_043.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_043.jpg"
+            data-full="full/img_043.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_044.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_044.jpg"
+            data-full="full/img_044.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_045.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_045.jpg"
+            data-full="full/img_045.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_046.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_046.jpg"
+            data-full="full/img_046.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_047.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_047.jpg"
+            data-full="full/img_047.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_048.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_048.jpg"
+            data-full="full/img_048.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_049.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_049.jpg"
+            data-full="full/img_049.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_050.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_050.jpg"
+            data-full="full/img_050.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_051.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_051.jpg"
+            data-full="full/img_051.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_052.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_052.jpg"
+            data-full="full/img_052.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_053.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_053.jpg"
+            data-full="full/img_053.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_054.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_054.jpg"
+            data-full="full/img_054.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_055.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_055.jpg"
+            data-full="full/img_055.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_056.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_056.jpg"
+            data-full="full/img_056.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_057.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_057.jpg"
+            data-full="full/img_057.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_058.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_058.jpg"
+            data-full="full/img_058.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_059.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_059.jpg"
+            data-full="full/img_059.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_060.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_060.jpg"
+            data-full="full/img_060.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_061.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_061.jpg"
+            data-full="full/img_061.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_062.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_062.jpg"
+            data-full="full/img_062.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_063.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_063.jpg"
+            data-full="full/img_063.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_064.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_064.jpg"
+            data-full="full/img_064.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_065.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_065.jpg"
+            data-full="full/img_065.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-c" onclick="openLightboxByName('img_066.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_066.jpg"
+            data-full="full/img_066.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-a" onclick="openLightboxByName('img_067.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_067.jpg"
+            data-full="full/img_067.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+        <div class="masonry-card scrapbook-frame tilt-b" onclick="openLightboxByName('img_068.jpg')">
+          <div class="tape tape-top-left"></div>
+          <img
+            src="thumbnails/thumb_068.jpg"
+            data-full="full/img_068.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            onerror="useFullImage(this)"
+          >
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="ending">
+      <div class="ending-card paper-panel">
+        <h2>The End</h2>
+        <p>Some moments end. The feeling does not.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox hidden">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <button class="nav prev" onclick="changeSlide(-1)">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+    </div>
+    <button class="nav next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+
+  <script>
+    const images = [{"original_name": "target.jpg.jpeg", "full_name": "img_001.jpg", "thumb_name": "thumb_001.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.02.jpeg", "full_name": "img_002.jpg", "thumb_name": "thumb_002.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.03 (1).jpeg", "full_name": "img_003.jpg", "thumb_name": "thumb_003.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.03 (2).jpeg", "full_name": "img_004.jpg", "thumb_name": "thumb_004.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.03 (3).jpeg", "full_name": "img_005.jpg", "thumb_name": "thumb_005.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.03 (4).jpeg", "full_name": "img_006.jpg", "thumb_name": "thumb_006.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.03.jpeg", "full_name": "img_007.jpg", "thumb_name": "thumb_007.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (1).jpeg", "full_name": "img_008.jpg", "thumb_name": "thumb_008.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (2).jpeg", "full_name": "img_009.jpg", "thumb_name": "thumb_009.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (3).jpeg", "full_name": "img_010.jpg", "thumb_name": "thumb_010.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (4).jpeg", "full_name": "img_011.jpg", "thumb_name": "thumb_011.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (5).jpeg", "full_name": "img_012.jpg", "thumb_name": "thumb_012.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (6).jpeg", "full_name": "img_013.jpg", "thumb_name": "thumb_013.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04 (7).jpeg", "full_name": "img_014.jpg", "thumb_name": "thumb_014.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.04.jpeg", "full_name": "img_015.jpg", "thumb_name": "thumb_015.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05 (1).jpeg", "full_name": "img_016.jpg", "thumb_name": "thumb_016.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05 (2).jpeg", "full_name": "img_017.jpg", "thumb_name": "thumb_017.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05 (3).jpeg", "full_name": "img_018.jpg", "thumb_name": "thumb_018.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05 (4).jpeg", "full_name": "img_019.jpg", "thumb_name": "thumb_019.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05 (5).jpeg", "full_name": "img_020.jpg", "thumb_name": "thumb_020.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05 (6).jpeg", "full_name": "img_021.jpg", "thumb_name": "thumb_021.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.05.jpeg", "full_name": "img_022.jpg", "thumb_name": "thumb_022.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.06 (1).jpeg", "full_name": "img_023.jpg", "thumb_name": "thumb_023.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.06 (2).jpeg", "full_name": "img_024.jpg", "thumb_name": "thumb_024.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.06 (3).jpeg", "full_name": "img_025.jpg", "thumb_name": "thumb_025.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.06 (4).jpeg", "full_name": "img_026.jpg", "thumb_name": "thumb_026.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.06 (5).jpeg", "full_name": "img_027.jpg", "thumb_name": "thumb_027.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.06.jpeg", "full_name": "img_028.jpg", "thumb_name": "thumb_028.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.07 (1).jpeg", "full_name": "img_029.jpg", "thumb_name": "thumb_029.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.07.jpeg", "full_name": "img_030.jpg", "thumb_name": "thumb_030.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (1).jpeg", "full_name": "img_031.jpg", "thumb_name": "thumb_031.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (2).jpeg", "full_name": "img_032.jpg", "thumb_name": "thumb_032.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (3).jpeg", "full_name": "img_033.jpg", "thumb_name": "thumb_033.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (4).jpeg", "full_name": "img_034.jpg", "thumb_name": "thumb_034.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (5).jpeg", "full_name": "img_035.jpg", "thumb_name": "thumb_035.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (6).jpeg", "full_name": "img_036.jpg", "thumb_name": "thumb_036.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08 (7).jpeg", "full_name": "img_037.jpg", "thumb_name": "thumb_037.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.08.jpeg", "full_name": "img_038.jpg", "thumb_name": "thumb_038.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (1).jpeg", "full_name": "img_039.jpg", "thumb_name": "thumb_039.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (2).jpeg", "full_name": "img_040.jpg", "thumb_name": "thumb_040.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (3).jpeg", "full_name": "img_041.jpg", "thumb_name": "thumb_041.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (4).jpeg", "full_name": "img_042.jpg", "thumb_name": "thumb_042.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (5).jpeg", "full_name": "img_043.jpg", "thumb_name": "thumb_043.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (6).jpeg", "full_name": "img_044.jpg", "thumb_name": "thumb_044.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09 (7).jpeg", "full_name": "img_045.jpg", "thumb_name": "thumb_045.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.09.jpeg", "full_name": "img_046.jpg", "thumb_name": "thumb_046.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.10 (1).jpeg", "full_name": "img_047.jpg", "thumb_name": "thumb_047.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.10 (2).jpeg", "full_name": "img_048.jpg", "thumb_name": "thumb_048.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.10 (3).jpeg", "full_name": "img_049.jpg", "thumb_name": "thumb_049.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.10 (4).jpeg", "full_name": "img_050.jpg", "thumb_name": "thumb_050.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.10 (5).jpeg", "full_name": "img_051.jpg", "thumb_name": "thumb_051.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.05.10.jpeg", "full_name": "img_052.jpg", "thumb_name": "thumb_052.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.16.59 (1).jpeg", "full_name": "img_053.jpg", "thumb_name": "thumb_053.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.16.59.jpeg", "full_name": "img_054.jpg", "thumb_name": "thumb_054.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.17.00 (1).jpeg", "full_name": "img_055.jpg", "thumb_name": "thumb_055.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.17.00 (2).jpeg", "full_name": "img_056.jpg", "thumb_name": "thumb_056.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.17.00 (3).jpeg", "full_name": "img_057.jpg", "thumb_name": "thumb_057.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.17.00 (4).jpeg", "full_name": "img_058.jpg", "thumb_name": "thumb_058.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 14.17.00.jpeg", "full_name": "img_059.jpg", "thumb_name": "thumb_059.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.45 (1).jpeg", "full_name": "img_060.jpg", "thumb_name": "thumb_060.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.45 (2).jpeg", "full_name": "img_061.jpg", "thumb_name": "thumb_061.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.45 (3).jpeg", "full_name": "img_062.jpg", "thumb_name": "thumb_062.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.45 (4).jpeg", "full_name": "img_063.jpg", "thumb_name": "thumb_063.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.45 (5).jpeg", "full_name": "img_064.jpg", "thumb_name": "thumb_064.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.45.jpeg", "full_name": "img_065.jpg", "thumb_name": "thumb_065.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.46 (1).jpeg", "full_name": "img_066.jpg", "thumb_name": "thumb_066.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.46 (2).jpeg", "full_name": "img_067.jpg", "thumb_name": "thumb_067.jpg"}, {"original_name": "WhatsApp Image 2026-04-08 at 20.27.46.jpeg", "full_name": "img_068.jpg", "thumb_name": "thumb_068.jpg"}];
+    const HAS_MUSIC = true;
+  </script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
